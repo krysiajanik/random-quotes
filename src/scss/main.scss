@@ -1,13 +1,76 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  max-width: 540px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  padding: 8px 32px;
+  margin-bottom: 32px;
+  border: 1px solid #121232;
+  border-radius: 4px;
+  background-color: rgba(236, 192, 47, 0.721);
+}
+
+.header {
+  font-family: "Gabriel Weiss' Friends Font";
+  font-size: 42px;
+  display: flex;
+  align-items: center;
+
+  &__dot {
+    margin: 16px;
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    &--blue {
+      background: blue;
+    }
+    &--red {
+      background: red;
+    }
+    &--yellow {
+      background: rgb(236, 192, 47);;
+    }
+  }
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__author {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    &::before {
+      content: "—";
+      color: rgb(0, 0, 0);
+    }
+  }
+  &__text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 64px;
 }
