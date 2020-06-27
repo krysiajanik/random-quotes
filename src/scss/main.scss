@@ -9,9 +9,12 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  max-width: 540px;
+  max-width: 300px;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
+  @media screen and (min-width: 520px) {
+    max-width: 480px;
+  }
 }
 
 .button {
@@ -24,18 +27,27 @@ body {
 
 .header {
   font-family: "Gabriel Weiss' Friends Font";
-  font-size: 42px;
+  font-size: 24px;
   display: flex;
   align-items: center;
-  margin-top: 124px;
+  margin-top: 64px;
+  @media screen and (min-width: 520px) {
+    font-size: 40px;
+    margin-top: 124px;
+  }
 
   &__dot {
-    margin: 16px;
+    margin: 8px;
     content: "";
     display: inline-block;
     border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    @media screen and (min-width: 520px) {
+      margin: 16px;
     width: 8px;
     height: 8px;
+    }
     &--blue {
       background: blue;
     }
@@ -58,7 +70,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 0 12px;
+  @media screen and (min-width: 520px) {
+    margin: 0px;
+  }
   &__author {
     font-weight: 300;
     font-size: 18px;
@@ -67,17 +82,31 @@ body {
       content: "—";
       color: rgb(0, 0, 0);
     }
+    @media screen and (min-width: 520px) {
+      font-size: 14px;
+    line-height: 22px;
+    }
   }
   &__text {
     font-style: italic;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    @media screen and (min-width: 520px) {
+      font-size: 20px;
+      line-height: 32px;
+    }
   }
 }
 .subtitle {
   text-align: center;
-  font-size: 20px;
-  line-height: 40px;
-  margin-bottom: 64px;
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 42px;
+  @media screen and (min-width: 520px) {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 64px;
+  }
 }
