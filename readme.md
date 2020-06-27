@@ -1,18 +1,18 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](./gh/cover.png)
 
-# WTF Webpack Starter Kit 
+# Freidns Quote Generator
 
-Simple toolkit for your static websites development.
+Easy access to your favourite Friends quotes!
 
-## How to use it?
+## Is there more?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+This app has PWA support, so you can easliy install it on your phone.
 
-## Available scripts
+## Features to come
 
-`npm run start` - runs development mode
+I'm planning to add functionality which would allow user to select the author of the quote and only get quotes from selected person - no timeline as of now.
 
-`npm run build` - runs build process for production
+## See any mistakes or missing quotes?
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+Let me know, I'll be happy to incorporate your ideas :) 
 
