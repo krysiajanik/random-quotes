@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friends Quote Generator</title>
@@ -8,45 +11,128 @@
   <meta property="og:url" content="https://krysiajanik.github.io/random-quotes/">
   <meta property="og:image" content="https://krysiajanik.github.io/random-quotes/assets/img/cover.jpg">
 
-  <link href="//db.onlinewebfonts.com/c/0b7d8a39b62b28cf0cfe3cea90b8baa3?family=Gabriel+Weiss'+Friends+Font" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="//db.onlinewebfonts.com/c/0b7d8a39b62b28cf0cfe3cea90b8baa3?family=Gabriel+Weiss'+Friends+Font"
+    rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
 
 
   <link rel="manifest" href="manifest.json">
 
-<link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-icon-180.png">
-<link rel="apple-touch-icon" sizes="167x167" href="pwa/apple-icon-167.png">
-<link rel="apple-touch-icon" sizes="152x152" href="pwa/apple-icon-152.png">
-<link rel="apple-touch-icon" sizes="120x120" href="pwa/apple-icon-120.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-icon-180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="pwa/apple-icon-167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="pwa/apple-icon-152.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="pwa/apple-icon-120.png">
 
-<meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2732-2048.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2388-1668.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2224.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2224-1668.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1536-2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-1536.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2688-1242.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1125-2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2436-1125.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-828-1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1792-828.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-2208-1242.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-750-1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1334-750.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-640-1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-<link rel="apple-touch-startup-image" href="pwa/apple-splash-1136-640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-2732.png"
+    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2732-2048.png"
+    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2388.png"
+    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2388-1668.png"
+    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2224.png"
+    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2224-1668.png"
+    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1536-2048.png"
+    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-1536.png"
+    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2688.png"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2688-1242.png"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1125-2436.png"
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2436-1125.png"
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-828-1792.png"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1792-828.png"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2208.png"
+    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2208-1242.png"
+    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-750-1334.png"
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1334-750.png"
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-640-1136.png"
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1136-640.png"
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 
 </head>
 
 <body>
-  <header>
-    <h1 class="header">F<span class="header__dot header__dot--red"></span>R<span class="header__dot header__dot--yellow"></span>I<span class="header__dot header__dot--blue"></span>E<span class="header__dot header__dot--red"></span>N<span class="header__dot header__dot--yellow"></span>D<span class="header__dot header__dot--blue"></span>S</h1>
+  <header class="header">
+    <?xml version="1.0" standalone="no"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+    <svg class="logo" version="1.0" xmlns="http://www.w3.org/2000/svg" width="1115.000000pt" height="261.000000pt"
+      viewBox="0 0 1115.000000 261.000000" preserveAspectRatio="xMidYMid meet">
+
+      <g transform="translate(0.000000,261.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+        <path d="M7268 1674 c-44 -23 -83 -91 -173 -295 -46 -106 -88 -196 -93 -201
+-18 -18 -30 1 -37 59 -15 123 -36 200 -87 314 l-30 66 -44 -8 c-59 -11 -56 -9
+-107 -87 -105 -160 -207 -379 -207 -446 0 -50 38 -100 78 -104 54 -5 95 34
+117 110 26 94 76 242 84 251 5 4 18 -20 31 -55 37 -104 90 -205 127 -243 50
+-51 86 -49 145 11 95 96 288 495 288 594 0 49 -39 63 -92 34z" />
+        <path d="M2793 1639 c-29 -5 -85 -20 -125 -34 -62 -22 -83 -25 -140 -19 l-66
+6 -40 -40 c-22 -23 -52 -44 -66 -48 -26 -6 -46 -46 -46 -91 0 -18 8 -28 30
+-36 35 -13 38 4 -37 -202 -81 -224 -103 -352 -65 -381 25 -19 37 -17 71 11 35
+30 56 88 75 207 13 80 35 140 119 329 29 63 47 75 164 107 77 22 183 38 183
+28 0 -10 -74 -43 -150 -66 -97 -29 -141 -52 -174 -90 -50 -61 -28 -92 84 -115
+41 -9 118 -27 170 -41 87 -23 99 -29 148 -77 43 -43 55 -50 70 -41 26 17 37
+68 22 104 -17 41 -94 109 -171 150 l-64 34 60 11 c103 19 162 44 195 81 35 41
+37 63 10 118 -23 48 -68 81 -130 95 -51 12 -56 12 -127 0z" />
+        <path d="M8600 1640 c-25 -5 -75 -21 -111 -38 l-66 -30 -12 34 c-10 27 -18 34
+-40 34 -43 0 -62 -21 -80 -91 -14 -55 -20 -64 -41 -67 -40 -6 -47 -18 -43 -70
+3 -34 -7 -92 -37 -206 -39 -152 -51 -239 -37 -263 14 -22 63 -24 122 -4 458
+149 627 225 735 329 77 76 97 120 86 195 -10 65 -42 108 -106 139 -84 42 -249
+59 -370 38z m235 -144 c71 -22 108 -55 108 -94 0 -46 -34 -77 -138 -127 -90
+-44 -500 -173 -512 -161 -8 7 44 207 68 263 15 36 28 47 91 79 40 21 96 43
+123 50 62 17 193 12 260 -10z" />
+        <path d="M4095 1617 c-8 -13 -23 -48 -34 -78 -10 -29 -49 -127 -85 -217 -80
+-195 -101 -298 -73 -357 14 -30 22 -35 49 -35 18 0 38 4 44 8 6 4 19 50 29
+102 11 59 42 157 82 257 71 180 100 316 73 333 -28 18 -69 11 -85 -13z" />
+        <path d="M10145 1626 c-63 -20 -174 -80 -243 -130 -110 -81 -147 -170 -102
+-244 28 -46 72 -61 240 -83 113 -15 157 -25 199 -47 30 -15 56 -32 58 -39 3
+-6 -10 -19 -26 -28 -56 -29 -119 -34 -251 -20 l-125 13 -27 -29 c-22 -23 -28
+-39 -28 -73 0 -44 0 -45 48 -60 106 -35 190 -30 352 20 141 44 210 107 210
+192 0 93 -69 166 -189 202 -51 15 -243 50 -276 50 -3 0 -5 6 -5 14 0 30 63 66
+175 101 63 19 126 46 139 58 36 32 43 70 17 96 -25 25 -101 28 -166 7z" />
+        <path d="M5271 1619 c-24 -5 -52 -16 -62 -25 -34 -31 -159 -385 -178 -502 -10
+-63 0 -125 24 -152 56 -62 247 -36 427 57 70 37 138 94 138 118 0 21 -59 65
+-89 65 -15 0 -83 -19 -151 -43 -120 -41 -170 -49 -170 -24 0 6 9 30 21 53 29
+61 74 80 249 103 214 29 230 32 246 49 18 18 15 31 -17 54 -30 23 -65 24 -256
+14 -150 -8 -153 -8 -153 12 0 74 47 102 175 102 83 0 86 1 96 27 8 22 6 30
+-13 51 -13 13 -37 31 -55 38 -36 15 -161 17 -232 3z" />
+        <path d="M1063 1613 c-39 -8 -78 -67 -132 -201 -53 -130 -54 -132 -85 -132
+-71 0 -96 -53 -56 -118 l21 -34 -47 -101 c-58 -124 -66 -177 -32 -227 32 -48
+77 -53 105 -13 26 37 37 69 69 193 31 122 45 154 79 176 32 21 180 58 335 85
+127 21 161 34 180 68 22 42 -19 71 -98 71 -26 0 -114 -9 -197 -19 -82 -11
+-152 -18 -154 -16 -7 8 50 95 69 105 10 5 52 10 92 10 88 0 144 14 158 40 19
+35 12 77 -16 99 -24 19 -39 21 -148 20 -66 -1 -131 -4 -143 -6z" />
+        <path d="M1754 1318 c-22 -10 -44 -47 -44 -73 0 -71 94 -110 144 -59 68 67
+-14 174 -100 132z" class="logo__dot--red" />
+        <path d="M3395 1305 c-56 -56 -16 -145 65 -145 54 0 90 34 90 85 0 51 -36 85
+-90 85 -30 0 -47 -6 -65 -25z" class="logo__dot--yellow"  />
+        <path d="M4535 1305 c-56 -56 -16 -145 65 -145 54 0 90 34 90 85 0 51 -36 85
+-90 85 -30 0 -47 -6 -65 -25z" class="logo__dot--blue" />
+        <path d="M6023 1318 c-44 -21 -54 -96 -17 -132 47 -48 134 -24 150 40 18 71
+-62 126 -133 92z" class="logo__dot--red"  />
+        <path d="M7635 1305 c-54 -53 -16 -145 60 -145 49 0 85 36 85 85 0 49 -36 85
+-85 85 -25 0 -44 -8 -60 -25z" class="logo__dot--yellow" />
+        <path d="M9285 1305 c-56 -56 -16 -145 65 -145 54 0 90 34 90 85 0 51 -36 85
+-90 85 -30 0 -47 -6 -65 -25z" class="logo__dot--blue" />
+      </g>
+    </svg>
     <p class="subtitle">Quote generator</p>
   </header>
   <main class="main">
@@ -59,4 +145,6 @@
   </main>
 
 
-</body></html>
+</body>
+
+</html>
