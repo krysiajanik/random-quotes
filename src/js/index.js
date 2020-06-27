@@ -34,5 +34,3 @@ button.addEventListener("click", () => {
   quoteText.innerHTML = quotes[myVar].text;
   quoteAuthor.innerHTML = quotes[myVar].author;
 });
-
-console.log('test')
