@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "Friends Quote Generator",
+  "short_name": "Friends Quotes",
+  "theme_color": "#9678D3",
+  "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/wtf-webpack-starter/",
+  "scope": "/random-quotes/",
+  "start_url": "/random-quotes/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
