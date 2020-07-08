@@ -1,6 +1,6 @@
 ![cover](./gh/cover.jpg)
 
-# Friendns Quote Generator
+# Friends Quote Generator
 
 Easy access to your favourite Friends quotes!
 
